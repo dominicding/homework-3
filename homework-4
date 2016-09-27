@@ -1,0 +1,13 @@
+function setup() {
+  createCanvas(500,500);
+  background(255);
+}
+
+function draw() {
+  for(var i=0;i<250;i=i+10){
+    line(250-i,i,i+250,i);
+  }
+  for (var x=0;x<250;x=x+10){
+    line(x,x+250,500-x,x+250);
+  }
+  }
