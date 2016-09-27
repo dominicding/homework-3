@@ -1,0 +1,15 @@
+function setup() {
+  createCanvas(500,500);
+  background(255);
+}
+
+function draw() {
+
+ for(var i=30;i<100;i=i+20){
+     for(var a=50;a<500;a=a+100){ 
+      noFill();
+      rectMode(CENTER);
+      rect(a,50,i,i);
+   }
+ }
+}
